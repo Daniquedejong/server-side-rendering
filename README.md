@@ -1,7 +1,7 @@
 
-# Squadpage 
+# Vini Mini productenoverzicht 
 
-![image](https://user-images.githubusercontent.com/112856683/220623102-a28bd148-be9d-4e71-9798-bbbf836315fb.png)
+![image](https://user-images.githubusercontent.com/112856683/224039957-f056cc63-d2cd-4825-b1a0-cb1a565da1ff.png)
 
 
 ## 📚 Inhoudsopgave

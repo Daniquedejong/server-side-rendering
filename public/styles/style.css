@@ -1,0 +1,168 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+:root {
+  --geel: #f4eb34;
+  --groen: #72A7A6;
+  --black: #000;
+  --wit: #FFFFFF;
+  --licht-grijs: #eee;
+  --donker-grijs: #ccc;
+  --lichtblauw: #e4f2f2;
+  --donkerblauw: #b5dbdc;
+  --font: 'Montserrat';
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0px;
+}
+
+/* @media screen and (max-width:800px) {
+  body {
+    width: 100vw;
+  }
+
+  .Verzendkosten {
+    width: 260vw;
+  }
+
+  header li {
+    width: 25vw;
+  }
+
+
+  header nav {
+    width: 450vw;
+  }
+
+  body .kalender {
+    margin: 0;
+    width: 260vw;
+  }
+} */
+
+.Verzendkosten {
+  background-color: var(--geel);
+  padding: 16px;
+  font-size: 12px;
+  text-align: center;
+  font-family: var(--font);
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em 0;
+  font-family: var(--font);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+
+header ul {
+  display: flex;
+  margin: -3em;
+  margin-top: -1em;
+  margin-left: -5em;
+  justify-content: flex-end;
+}
+
+
+header ul li {
+  font-size: 10px;
+  margin-left: -1em;
+  padding: 0.5em;
+}
+
+nav {
+  margin: 1em auto;
+  padding: 0 2em;
+}
+
+nav li {
+  padding: 3vh 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--black);
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.Vini-Mini {
+  margin-left: 0.5em;
+  width: 12%;
+  height: 5%;
+}
+
+h1 {
+  margin-top: 1em;
+  font-size: 25px;
+  color: var(--groen);
+  font-family: var(--font);
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+
+section {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  position: relative;
+  width: 15rem;
+  height: 10rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: var(--white);
+  text-align: center;
+  background: rgb(176, 125, 161);
+  border-radius: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+article h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+article img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+article a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  display: block;
+}

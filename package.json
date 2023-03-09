@@ -1,0 +1,29 @@
+{
+  "name": "server-side-rendering",
+  "version": "1.0.0",
+  "description": "Vini Mini productenoverzicht",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniquedejong/server-side-rendering.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ejs"
+  ],
+  "author": "Danique de Jong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniquedejong/server-side-rendering/issues"
+  },
+  "homepage": "https://github.com/Daniquedejong/server-side-rendering#readme"
+}

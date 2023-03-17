@@ -33,8 +33,6 @@ Wat is EJS:
 EJS is een sjabloontaal waarmee ontwikkelaars dynamische HTML-pagina's kunnen maken in Node.js-applicaties. Het wordt gebruikt om variabelen, conditionele logica en herbruikbare componenten in HTML-pagina's in te voegen, waardoor het bouwen van webpagina's eenvoudiger en efficiënter wordt.
 
 
-Tools
-
 <ul>
 <li><strong>TOOLS 🧰:</strong></li>
 <li>VSCode</li>

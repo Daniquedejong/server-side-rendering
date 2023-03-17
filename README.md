@@ -1,7 +1,7 @@
 
 # Vini Mini productenoverzicht 
 
-![image](https://user-images.githubusercontent.com/112856683/224039957-f056cc63-d2cd-4825-b1a0-cb1a565da1ff.png)
+![image](https://user-images.githubusercontent.com/112856683/225852464-ee53c2a9-0319-4f32-899e-4c6a9b8d2475.png)
 
 
 ## 📚 Inhoudsopgave

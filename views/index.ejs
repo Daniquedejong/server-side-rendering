@@ -30,14 +30,27 @@
     <div class="product-container bd-grid">
       <div class="product">
         <div class="product-box">
-          <a href="/detail/?detailSlug= <%= product.slug %> ">
-            <img
-              src="<%= product.plaatjes %> "
-              alt="/assets/vini-mini-alt.webp"
-              class="product-img"
-            />
-          </a>
+          <a href="/detail/?detailSlug=<%= product.slug %> "> </a>
+
+          <!-- dit zorgt ervoor dat je plaatjes uit de database krijgt, ook als er geen plaatje is ingevoerd -->
+          <% if(product.plaatjes.length) { %>
+          <a href="/detail/?detailSlug=<%= product.slug %>"
+            ><img
+              src="<%= product.plaatjes[0].url %>"
+              alt="Placeholder pinda"
+              class="foto"
+          /></a>
+
+          <!-- Als er bij een product geen url naar een plaatje is, laat dan deze placeholder image zien-->
+          <% }else{ %>
+          <img
+            src="/assets/vini-mini-alt.webp"
+            alt="Placeholder pinda"
+            class="foto"
+          />
+          <% } %>
         </div>
+
         <div class="product-data">
           <h3 class="product-name"><%= product.titel %></h3>
           <span class="product-price"> € <%= product.prijs %> </span>

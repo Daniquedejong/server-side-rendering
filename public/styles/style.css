@@ -125,7 +125,6 @@ h1 {
 
 .product-container {
   row-gap: 2rem;
-  border-style: solid 20px var(--black);
 }
 
 .product {
@@ -215,6 +214,10 @@ h1 {
   width: calc(100% - 3rem);
   margin: 0 auto;
 
+}
+
+.foto {
+  max-width: 20em;
 }
 
 
